@@ -34,6 +34,7 @@ const mockFetch = (url) => {
     })
   }
 
+
   return Promise.reject('Houve algo de errado com o endpoint, verifique se ele está correto')
 };
 
